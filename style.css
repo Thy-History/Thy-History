@@ -5,8 +5,49 @@ nav {
   display: flex;
   text-align: center;
   justify-content: center;
+  padding-top: 20px;
+}
+
+ul {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  list-style-type: none;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
+li {
+  color: #ffe83d;
+  font-size: 20px;
+  background-color: #628cf5;
+  border: 3px solid;
+  border-color: #2b51b3;
+  padding: 10px;
+}
+
+li:hover {
+  border-color: #789eff;
+  font-weight: bold;
+  background-color: #3370e8;
+  padding: 15px;
+  transition: .09s;
 }
 
 body {
   background-color: #6382cf;
+}
+
+a {
+  text-decoration: none;
+}
+
+.article-size {
+  font-size: 50px;
+  text-align: center;
+}
+
+.header {
+  padding-bottom: 150px;
 }
