@@ -1,5 +1,12 @@
 * {
   font-family: "Newsreader", serif;
-.header {
+
+nav {
+  display: flex;
   text-align: center;
+  justify-content: center;
+}
+
+body {
+  background-color: #6382cf;
 }
